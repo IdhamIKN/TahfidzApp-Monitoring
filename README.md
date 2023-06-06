@@ -104,8 +104,8 @@ Kamu bisa mendukung aku di platform Trakteer! Dukungan kamu akan sangat berarti.
 
 <h2 id="lisensi">📝 License</h2>
 
-<p>LinkIta is open-sourced software licensed under the MIT license.</p>
+<p>TahfidzApp is open-sourced software licensed under the MIT license.</p>
 
 <h2 id="pembuat">🧍 Author</h2>
 
-<p>LinkIta s dibuat oleh <a href="https://instagram.com/idhamikn?igshid=MmJiY2I4NDBkZg==">IdhamIKn</a> .</p>
+<p>TahfidzApp s dibuat oleh <a href="https://instagram.com/idhamikn?igshid=MmJiY2I4NDBkZg==">IdhamIKn</a> .</p>
