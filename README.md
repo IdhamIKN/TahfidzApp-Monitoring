@@ -74,8 +74,8 @@ php artisan migrate --seed
 4. Jalankan website
 
 ```bash
-    php artisan serve
-    ```
+php artisan serve
+```
 
 
 <h2 id="testing-account"> Default Account for Testing</h2>
