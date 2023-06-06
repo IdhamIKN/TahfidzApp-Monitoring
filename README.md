@@ -31,6 +31,7 @@ Level Guru memiliki akses terbatas pada sistem dan hanya dapat melakukan penilai
 ## Requirements
 - [PHP >= 8.1.6](http://php.net/)
 - [Laravel Framework](https://github.com/laravel/framework)
+
 ## Laravel Version Compatibility
 
 | Laravel | PHP     |
