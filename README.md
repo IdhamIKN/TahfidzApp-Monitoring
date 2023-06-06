@@ -69,6 +69,8 @@ DB_PASSWORD=
 
 ```bash
 php artisan key:generate
+```
+```bash
 php artisan migrate --seed
 ```
 4. Jalankan website
