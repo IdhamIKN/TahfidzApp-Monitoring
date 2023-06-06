@@ -87,3 +87,23 @@ php artisan serve
       
      
 <h2 id="[dukungan](https://saweria.co/idhamIKN)">💌 [Support Me]</h2>
+
+<p>
+Kamu bisa mendukung aku di platform Trakteer! Dukungan kamu akan sangat berarti. Namun, dengan kamu memberikan <i>star</i> pada <i>project</i> ini juga sudah sangat cukup kok~!
+</p>
+
+<a href="https://saweria.co/idhamIKN" target="_blank"><img id="wse-buttons-preview" src="💌 [Support Me]" height="40" style="border:0px;height:40px;" alt="💌 [Support Me]" ></a>
+
+<h2 id="kontribusi">🤝 Contributing</h2>
+
+<p>
+<i>Contributions, issues and feature requests</i> sangat diapresiasi karena aplikasi ini jauh dari kata sempurna. Jangan ragu untuk melakukan <i>pull request</i> dan membuat perubahan pada <i>project</i> ini, yaaa!
+</p>
+
+<h2 id="lisensi">📝 License</h2>
+
+<p>LinkIta is open-sourced software licensed under the MIT license.</p>
+
+<h2 id="pembuat">🧍 Author</h2>
+
+<p>LinkIta s dibuat oleh <a href="https://instagram.com/idhamikn?igshid=MmJiY2I4NDBkZg==">IdhamIKn</a> .</p>
