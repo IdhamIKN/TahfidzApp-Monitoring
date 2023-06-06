@@ -1,2 +1,87 @@
-# TahfidzApp-Monitoring
-"Tahfidz Monitoring Santi" adalah sebuah platform berbasis web yang dirancang khusus untuk membantu pengguna dalam memantau dan mengelola aktivitas tahfidz (penghafalan Al-Qur'an) secara efektif.
+<p align="center"><a href="https://tahfidzapp.bmdsyariah.com" target="_blank"><img src="https://tahfidzapp.bmdsyariah.com/layout_login/images/logo.png" width="400" alt="Laravel Logo"></a></p>
+
+<p align="center">
+<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+</p>
+
+
+## About TahfidzApp
+
+    TahfidzApp adalah sebuah aplikasi web yang didesain untuk membantu mempermudah proses pembelajaran tahfidz Al-Quran secara online. Aplikasi ini memiliki tiga level akses yaitu Creator, Admin, dan Guru.
+
+    Level Creator memiliki akses penuh pada sistem dan dapat mengakses semua fitur yang tersedia, termasuk fungsi-fungsi administratif dan manajemen pengguna. Creator juga dapat membuat kelas dan mengundang siswa untuk bergabung ke dalam kelas tersebut.
+
+    Level Admin hampir sama dengan Creator, namun tidak dapat melakukan penilaian. Admin memiliki akses penuh ke semua fitur administratif dan manajemen pengguna, termasuk melihat daftar siswa, menambahkan atau menghapus siswa dari kelas, dan memberikan akses kepada guru.
+
+    Level Guru memiliki akses terbatas pada sistem dan hanya dapat melakukan penilaian. Guru dapat melihat daftar siswa yang terdaftar di kelas yang dia akses, membuat penilaian, dan memberikan umpan balik pada penilaian yang telah dilakukan.
+
+<h2 id="fitur">Fitur apa saja yang tersedia di TahfidzApp?</h2>
+
+    - Pembuatan kelas dan mengundang siswa untuk bergabung.
+    - Manajemen pengguna, termasuk menambahkan, mengedit, atau menghapus pengguna.
+    - Manajemen kelas, termasuk menambahkan atau menghapus siswa dari kelas.
+    - Pengelolaan materi dan latihan untuk setiap kelas.
+    - Pembuatan dan pengelolaan penilaian untuk setiap siswa di kelas.
+    - Pengiriman notifikasi kepada siswa dan guru ketika ada penilaian yang telah diberikan.
+    - Untuk masuk ke dalam sistem, Creator dapat menggunakan username "admin" dan password "password". Admin - - dan Guru akan menerima akun dari Creator dan dapat masuk ke dalam sistem dengan username dan password yang  telah ditentukan oleh Creator.
+
+## Requirements
+    - [PHP >= 8.1.6](http://php.net/)
+    - [Laravel Framework](https://github.com/laravel/framework)
+## Laravel Version Compatibility
+
+    | Laravel | PHP     |
+
+    | 8.x.x   | 8.1.x   |
+
+
+<h2 id="download">💻 Install</h2>
+
+    1. Clone repository
+
+        ```bash
+        git clone https://github.com/IdhamIKN/TahfidzApp.git
+        ```
+        ```
+        cd TahfidzApp-Monitoring
+        ```
+        ```
+        composer update
+        ```
+        ```
+        copy .env.example .env
+        ```
+    2. Konfigurasi database melalui `.env`
+
+        ```
+        DB_PORT=3306
+        DB_DATABASE=xxxx
+        DB_USERNAME=root
+        DB_PASSWORD=
+        ```
+    3. Migrasi dan symlinks
+
+        ```bash
+        php artisan key:generate
+        php artisan migrate --seed
+        php artisan storage:link
+        ```
+    4. Jalankan website
+
+        ```bash
+        php artisan serve
+        ```
+
+
+<h2 id="testing-account"> Default Account for Testing</h2>
+
+#### Admin
+
+        -   Username: admin
+        -   Password: password
+      
+     
+<h2 id="[dukungan](https://saweria.co/idhamIKN)">💌 [Support Me]</h2>
