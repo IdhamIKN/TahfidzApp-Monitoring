@@ -10,78 +10,80 @@
 
 ## About TahfidzApp
 
-    TahfidzApp adalah sebuah aplikasi web yang didesain untuk membantu mempermudah proses pembelajaran tahfidz Al-Quran secara online. Aplikasi ini memiliki tiga level akses yaitu Creator, Admin, dan Guru.
+TahfidzApp adalah sebuah aplikasi web yang didesain untuk membantu mempermudah proses pembelajarantahfidz Al-Quran secara online. Aplikasi ini memiliki tiga level akses yaitu Creator, Admin, dan Guru.
 
-    Level Creator memiliki akses penuh pada sistem dan dapat mengakses semua fitur yang tersedia, termasuk fungsi-fungsi administratif dan manajemen pengguna. Creator juga dapat membuat kelas dan mengundang siswa untuk bergabung ke dalam kelas tersebut.
+Level Creator memiliki akses penuh pada sistem dan dapat mengakses semua fitur yang tersedia, termasukfungsi-fungsi administratif dan manajemen pengguna. Creator juga dapat membuat kelas dan mengundangsiswa untuk bergabung ke dalam kelas tersebut.
 
-    Level Admin hampir sama dengan Creator, namun tidak dapat melakukan penilaian. Admin memiliki akses penuh ke semua fitur administratif dan manajemen pengguna, termasuk melihat daftar siswa, menambahkan atau menghapus siswa dari kelas, dan memberikan akses kepada guru.
+Level Admin hampir sama dengan Creator, namun tidak dapat melakukan penilaian. Admin memiliki aksespenuh ke semua fitur administratif dan manajemen pengguna, termasuk melihat daftar siswa, menambahkanatau menghapus siswa dari kelas, dan memberikan akses kepada guru.
 
-    Level Guru memiliki akses terbatas pada sistem dan hanya dapat melakukan penilaian. Guru dapat melihat daftar siswa yang terdaftar di kelas yang dia akses, membuat penilaian, dan memberikan umpan balik pada penilaian yang telah dilakukan.
+Level Guru memiliki akses terbatas pada sistem dan hanya dapat melakukan penilaian. Guru dapat melihatdaftar siswa yang terdaftar di kelas yang dia akses, membuat penilaian, dan memberikan umpan balikpada penilaian yang telah dilakukan.
 
 <h2 id="fitur">Fitur apa saja yang tersedia di TahfidzApp?</h2>
 
-    - Pembuatan kelas dan mengundang siswa untuk bergabung.
-    - Manajemen pengguna, termasuk menambahkan, mengedit, atau menghapus pengguna.
-    - Manajemen kelas, termasuk menambahkan atau menghapus siswa dari kelas.
-    - Pengelolaan materi dan latihan untuk setiap kelas.
-    - Pembuatan dan pengelolaan penilaian untuk setiap siswa di kelas.
-    - Pengiriman notifikasi kepada siswa dan guru ketika ada penilaian yang telah diberikan.
-    - Untuk masuk ke dalam sistem, Creator dapat menggunakan username "admin" dan password "password". Admin - - dan Guru akan menerima akun dari Creator dan dapat masuk ke dalam sistem dengan username dan password yang  telah ditentukan oleh Creator.
+- Pembuatan kelas dan mengundang siswa untuk bergabung.
+- Manajemen pengguna, termasuk menambahkan, mengedit, atau menghapus pengguna.
+- Manajemen kelas, termasuk menambahkan atau menghapus siswa dari kelas.
+- Pengelolaan materi dan latihan untuk setiap kelas.
+- Pembuatan dan pengelolaan penilaian untuk setiap siswa di kelas.
+- Pengiriman notifikasi kepada siswa dan guru ketika ada penilaian yang telah diberikan.
+- Untuk masuk ke dalam sistem, Creator dapat menggunakan username "admin" dan password "password".Admin - - dan Guru akan menerima akun dari Creator dan dapat masuk ke dalam sistem dengan username danpassword yang  telah ditentukan oleh Creator.
 
 ## Requirements
-    - [PHP >= 8.1.6](http://php.net/)
-    - [Laravel Framework](https://github.com/laravel/framework)
+- [PHP >= 8.1.6](http://php.net/)
+- [Laravel Framework](https://github.com/laravel/framework)
 ## Laravel Version Compatibility
 
-    | Laravel | PHP     |
+| Laravel | PHP     |
 
-    | 8.x.x   | 8.1.x   |
+| 8.x.x   | 8.1.x   |
 
 
 <h2 id="download">💻 Install</h2>
 
-    1. Clone repository
+1. Clone repository
 
-        ```bash
-        git clone https://github.com/IdhamIKN/TahfidzApp.git
-        ```
-        ```
-        cd TahfidzApp-Monitoring
-        ```
-        ```
-        composer update
-        ```
-        ```
-        copy .env.example .env
-        ```
-    2. Konfigurasi database melalui `.env`
+```bash
+    git clone https://github.com/IdhamIKN/TahfidzApp.git
+```
 
-        ```
-        DB_PORT=3306
-        DB_DATABASE=xxxx
-        DB_USERNAME=root
-        DB_PASSWORD=
-        ```
-    3. Migrasi dan symlinks
+```bash
+    cd TahfidzApp-Monitoring
+```
 
-        ```bash
-        php artisan key:generate
-        php artisan migrate --seed
-        php artisan storage:link
-        ```
-    4. Jalankan website
+```bash
+    composer update
+```
 
-        ```bash
-        php artisan serve
-        ```
+```bash
+    copy .env.example .env
+```
+2. Konfigurasi database melalui `.env`
+
+```bash
+DB_PORT=3306
+DB_DATABASE=xxxx
+DB_USERNAME=root
+DB_PASSWORD=
+```
+3. Migrasi dan symlinks
+
+```bash
+php artisan key:generate
+php artisan migrate --seed
+```
+4. Jalankan website
+
+```bash
+    php artisan serve
+    ```
 
 
 <h2 id="testing-account"> Default Account for Testing</h2>
 
 #### Admin
 
-        -   Username: admin
-        -   Password: password
+    -   Username: admin
+    -   Password: password
       
      
 <h2 id="[dukungan](https://saweria.co/idhamIKN)">💌 [Support Me]</h2>
